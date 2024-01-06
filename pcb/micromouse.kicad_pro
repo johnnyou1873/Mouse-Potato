@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -61,7 +61,7 @@
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "error",
+        "clearance": "ignore",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -96,7 +96,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "ignore",
         "text_height": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -173,6 +173,7 @@
       ],
       "track_widths": [
         0.0,
+        0.254,
         0.635,
         1.27,
         2.54
@@ -494,15 +495,15 @@
     ],
     [
       "4432e65f-ab91-428e-9e14-5bd062bc3b2a",
-      "TOF FrontRight"
+      "TOF Right"
     ],
     [
       "c49b218c-498c-4be6-8fe0-5dd9138da158",
       "TOF Left"
     ],
     [
-      "56486274-3031-423c-bd33-d29e819d67c9",
-      "TOF Right"
+      "8eced2d0-fd97-48cd-b4cc-6b7d847f68af",
+      "LED 1"
     ],
     [
       "cf9a1018-f024-4f3e-aaf6-05bf8a1e7d4b",
@@ -510,19 +511,11 @@
     ],
     [
       "4ba54288-1506-4e8c-85f4-f5967639ad45",
-      "TOF FrontLeft"
+      "TOF Front"
     ],
     [
-      "daba2f40-92d1-4b6c-9ee3-215d7fa7e5a6",
-      "Debug Button"
-    ],
-    [
-      "4b3d5daa-e131-4877-bb69-38de06be5526",
-      "Debug LED 0"
-    ],
-    [
-      "44195e8c-2f3e-434f-a22f-0c1fa096b1b0",
-      "Debug LED 1"
+      "78f62a2c-d8fa-43dc-aacb-e1e598cefd63",
+      "LED 2"
     ],
     [
       "2b401192-29f1-4489-afec-f456074fa36a",

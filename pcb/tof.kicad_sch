@@ -323,7 +323,7 @@
   (symbol (lib_id "PCM_SL_Pin_Headers:PINHD_1x7_Female") (at 147.32 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 117119aa-4fe1-4436-b0bf-416b858ab10f)
-    (property "Reference" "J5" (at 147.32 95.25 90)
+    (property "Reference" "J9" (at 147.32 95.25 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PINHD_1x7_Female" (at 147.32 97.79 90)
@@ -352,9 +352,6 @@
         )
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/2b401192-29f1-4489-afec-f456074fa36a/c49b218c-498c-4be6-8fe0-5dd9138da158"
           (reference "J6") (unit 1)
-        )
-        (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/2b401192-29f1-4489-afec-f456074fa36a/56486274-3031-423c-bd33-d29e819d67c9"
-          (reference "J7") (unit 1)
         )
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/2b401192-29f1-4489-afec-f456074fa36a/4ba54288-1506-4e8c-85f4-f5967639ad45"
           (reference "J8") (unit 1)
