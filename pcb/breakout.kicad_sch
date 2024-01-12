@@ -1017,7 +1017,7 @@
   (symbol (lib_id "PCM_SL_Pin_Headers:PINHD_1x4_Female") (at 153.67 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3761d6c3-5202-4288-9fe1-b9288bfb30c0)
-    (property "Reference" "J10" (at 156.21 110.49 0)
+    (property "Reference" "J?" (at 156.21 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PINHD_1x4_Female" (at 156.21 113.03 0)
@@ -1036,10 +1036,10 @@
     (instances
       (project "micromouse"
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0"
-          (reference "J10") (unit 1)
+          (reference "J?") (unit 1)
         )
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/2b401192-29f1-4489-afec-f456074fa36a"
-          (reference "J10") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -1077,7 +1077,7 @@
   (symbol (lib_id "PCM_SL_Pin_Headers:PINHD_1x4_Female") (at 153.67 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c54a776c-aaf0-405d-9f93-84d114f2df8e)
-    (property "Reference" "J12" (at 156.21 123.19 0)
+    (property "Reference" "J?" (at 156.21 123.19 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PINHD_1x4_Female" (at 156.21 125.73 0)
@@ -1096,10 +1096,10 @@
     (instances
       (project "micromouse"
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0"
-          (reference "J12") (unit 1)
+          (reference "J?") (unit 1)
         )
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/2b401192-29f1-4489-afec-f456074fa36a"
-          (reference "J19") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -1108,7 +1108,7 @@
   (symbol (lib_id "PCM_SL_Pin_Headers:PINHD_1x5_Male") (at 115.57 80.01 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c8b69ccf-f2be-458f-ae46-9605c702eb0c)
-    (property "Reference" "J13" (at 113.03 78.74 0)
+    (property "Reference" "J15" (at 113.03 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PINHD_1x5_Male" (at 113.03 81.28 0)
@@ -1128,7 +1128,7 @@
     (instances
       (project "micromouse"
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/2b401192-29f1-4489-afec-f456074fa36a"
-          (reference "J13") (unit 1)
+          (reference "J15") (unit 1)
         )
       )
     )
@@ -1163,7 +1163,7 @@
   (symbol (lib_id "power:GND") (at 144.78 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f6d8e189-65ec-478a-b39d-a5498481dbda)
-    (property "Reference" "#PWR011" (at 144.78 139.7 0)
+    (property "Reference" "#PWR?" (at 144.78 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 144.78 138.43 0)
@@ -1179,10 +1179,10 @@
     (instances
       (project "micromouse"
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/2b401192-29f1-4489-afec-f456074fa36a"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
     )

@@ -218,10 +218,10 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/22fc5943-d35f-4cae-bd7a-e9c2d3f0acc0"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/c4f0a74e-3ee2-4c6f-8c2d-57efc1193865"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
     )
@@ -230,7 +230,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 144.78 97.79 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72f44d8a-2a0b-4c99-b263-7fe9fc970430)
-    (property "Reference" "R1" (at 147.32 96.52 0)
+    (property "Reference" "R?" (at 147.32 96.52 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100 ohm" (at 147.32 99.06 0)
@@ -247,7 +247,7 @@
     (instances
       (project "temp"
         (path "/4ab6c597-c995-4ded-b4e9-3fe49657a9f7"
-          (reference "R1") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "micromouse"
@@ -255,13 +255,13 @@
           (reference "R?") (unit 1)
         )
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/cf9a1018-f024-4f3e-aaf6-05bf8a1e7d4b"
-          (reference "R4") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/22fc5943-d35f-4cae-bd7a-e9c2d3f0acc0"
-          (reference "R3") (unit 1)
+          (reference "R1") (unit 1)
         )
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/c4f0a74e-3ee2-4c6f-8c2d-57efc1193865"
-          (reference "R5") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -290,10 +290,10 @@
           (reference "D?") (unit 1)
         )
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/22fc5943-d35f-4cae-bd7a-e9c2d3f0acc0"
-          (reference "D2") (unit 1)
+          (reference "D1") (unit 1)
         )
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/c4f0a74e-3ee2-4c6f-8c2d-57efc1193865"
-          (reference "D3") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )

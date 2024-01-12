@@ -436,7 +436,7 @@
   (symbol (lib_id "ICM-42688-P:ICM-42688-P") (at 151.13 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0c697592-157b-4143-b0f2-f50eaf225021)
-    (property "Reference" "U1" (at 151.13 81.28 0)
+    (property "Reference" "U?" (at 151.13 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ICM-42688-P" (at 151.13 83.82 0)
@@ -477,15 +477,15 @@
     (instances
       (project "temp"
         (path "/4ab6c597-c995-4ded-b4e9-3fe49657a9f7"
-          (reference "U1") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
       (project "micromouse"
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0"
-          (reference "U4") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/cf9a1018-f024-4f3e-aaf6-05bf8a1e7d4b"
-          (reference "U4") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -494,7 +494,7 @@
   (symbol (lib_id "power:+3.3V") (at 198.12 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1ffe7b0e-a6be-40ba-befc-5f379d612d6f)
-    (property "Reference" "#PWR017" (at 198.12 81.28 0)
+    (property "Reference" "#PWR?" (at 198.12 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 198.12 72.39 0)
@@ -510,10 +510,10 @@
     (instances
       (project "micromouse"
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/cf9a1018-f024-4f3e-aaf6-05bf8a1e7d4b"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -522,7 +522,7 @@
   (symbol (lib_id "Device:C_Small") (at 181.61 81.28 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3ddef346-623c-46bb-853c-7a9239678d68)
-    (property "Reference" "C1" (at 184.15 80.0036 0)
+    (property "Reference" "C?" (at 184.15 80.0036 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1 uF" (at 184.15 82.5436 0)
@@ -539,15 +539,15 @@
     (instances
       (project "temp"
         (path "/4ab6c597-c995-4ded-b4e9-3fe49657a9f7"
-          (reference "C1") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "micromouse"
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0"
-          (reference "C7") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/cf9a1018-f024-4f3e-aaf6-05bf8a1e7d4b"
-          (reference "C7") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -556,7 +556,7 @@
   (symbol (lib_id "power:+3.3V") (at 110.49 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72df7bbf-d49b-4b99-bf96-08182b59ea59)
-    (property "Reference" "#PWR017" (at 110.49 97.79 0)
+    (property "Reference" "#PWR?" (at 110.49 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 110.49 88.9 0)
@@ -572,10 +572,10 @@
     (instances
       (project "micromouse"
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/cf9a1018-f024-4f3e-aaf6-05bf8a1e7d4b"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -584,7 +584,7 @@
   (symbol (lib_id "Device:C_Small") (at 193.04 81.28 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f8ae7b6-6949-42d0-a5e8-81d07fdd551e)
-    (property "Reference" "C2" (at 195.58 80.0036 0)
+    (property "Reference" "C?" (at 195.58 80.0036 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2.2 uF" (at 195.58 82.5436 0)
@@ -601,15 +601,15 @@
     (instances
       (project "temp"
         (path "/4ab6c597-c995-4ded-b4e9-3fe49657a9f7"
-          (reference "C2") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "micromouse"
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0"
-          (reference "C8") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/cf9a1018-f024-4f3e-aaf6-05bf8a1e7d4b"
-          (reference "C8") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -618,7 +618,7 @@
   (symbol (lib_id "Device:C_Small") (at 193.04 95.25 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9d450d81-93d1-465d-b67e-e5fac93be771)
-    (property "Reference" "C3" (at 195.58 93.9736 0)
+    (property "Reference" "C?" (at 195.58 93.9736 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10 nF" (at 195.58 96.5136 0)
@@ -635,15 +635,15 @@
     (instances
       (project "temp"
         (path "/4ab6c597-c995-4ded-b4e9-3fe49657a9f7"
-          (reference "C3") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "micromouse"
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0"
-          (reference "C9") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/cf9a1018-f024-4f3e-aaf6-05bf8a1e7d4b"
-          (reference "C9") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -652,7 +652,7 @@
   (symbol (lib_id "power:GND") (at 193.04 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a220b0c1-56c0-4cf7-ac43-0487fbc2ed8f)
-    (property "Reference" "#PWR03" (at 193.04 90.17 0)
+    (property "Reference" "#PWR?" (at 193.04 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 193.04 88.9 0)
@@ -668,15 +668,15 @@
     (instances
       (project "temp"
         (path "/4ab6c597-c995-4ded-b4e9-3fe49657a9f7"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "micromouse"
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/cf9a1018-f024-4f3e-aaf6-05bf8a1e7d4b"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -685,7 +685,7 @@
   (symbol (lib_id "power:GND") (at 181.61 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a8d38b82-5a7a-4bbb-b6d6-64b6f47a0343)
-    (property "Reference" "#PWR02" (at 181.61 90.17 0)
+    (property "Reference" "#PWR?" (at 181.61 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 181.61 88.9 0)
@@ -701,15 +701,15 @@
     (instances
       (project "temp"
         (path "/4ab6c597-c995-4ded-b4e9-3fe49657a9f7"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "micromouse"
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/cf9a1018-f024-4f3e-aaf6-05bf8a1e7d4b"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -718,7 +718,7 @@
   (symbol (lib_id "power:+3.3V") (at 198.12 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b5cce5cf-1d8f-4f48-888a-b2fb25becf04)
-    (property "Reference" "#PWR017" (at 198.12 95.25 0)
+    (property "Reference" "#PWR?" (at 198.12 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 198.12 86.36 0)
@@ -734,10 +734,10 @@
     (instances
       (project "micromouse"
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/cf9a1018-f024-4f3e-aaf6-05bf8a1e7d4b"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -746,7 +746,7 @@
   (symbol (lib_id "power:GND") (at 193.04 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b7fe07d5-4712-4a4a-973d-826642df36be)
-    (property "Reference" "#PWR04" (at 193.04 104.14 0)
+    (property "Reference" "#PWR?" (at 193.04 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 193.04 102.87 0)
@@ -762,15 +762,15 @@
     (instances
       (project "temp"
         (path "/4ab6c597-c995-4ded-b4e9-3fe49657a9f7"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "micromouse"
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/cf9a1018-f024-4f3e-aaf6-05bf8a1e7d4b"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -779,7 +779,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 110.49 97.79 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b958c1f6-07f6-4bfd-aa48-6fd1b39a0a8e)
-    (property "Reference" "R1" (at 113.03 96.52 0)
+    (property "Reference" "R?" (at 113.03 96.52 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 113.03 99.06 0)
@@ -796,12 +796,12 @@
     (instances
       (project "temp"
         (path "/4ab6c597-c995-4ded-b4e9-3fe49657a9f7"
-          (reference "R1") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "micromouse"
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0"
-          (reference "R18") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/cf9a1018-f024-4f3e-aaf6-05bf8a1e7d4b"
           (reference "R4") (unit 1)
@@ -813,7 +813,7 @@
   (symbol (lib_id "power:GND") (at 176.53 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bb5566a2-334f-48a7-96a3-11032b5f0856)
-    (property "Reference" "#PWR01" (at 176.53 124.46 0)
+    (property "Reference" "#PWR?" (at 176.53 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 176.53 123.19 0)
@@ -829,15 +829,15 @@
     (instances
       (project "temp"
         (path "/4ab6c597-c995-4ded-b4e9-3fe49657a9f7"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "micromouse"
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/cf9a1018-f024-4f3e-aaf6-05bf8a1e7d4b"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
