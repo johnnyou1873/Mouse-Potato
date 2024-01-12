@@ -55,13 +55,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|134605181|131804622|6339881d-d340-4ee5-913c-50b8d76b2a50|b224326f-7dea-42e6-a379-f2428687922e",
+        "clearance|136283706|104536689|817d1708-f302-4431-be9b-4584bde2a66b|b224326f-7dea-42e6-a379-f2428687922e"
+      ],
       "meta": {
         "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "ignore",
+        "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
