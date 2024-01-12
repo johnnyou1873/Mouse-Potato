@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 1.55,
+          "width": 0.3
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.09999999999999999
         }
       },
       "diff_pair_dimensions": [
@@ -502,7 +502,7 @@
       "TOF Left"
     ],
     [
-      "8eced2d0-fd97-48cd-b4cc-6b7d847f68af",
+      "22fc5943-d35f-4cae-bd7a-e9c2d3f0acc0",
       "LED 1"
     ],
     [
@@ -514,7 +514,7 @@
       "TOF Front"
     ],
     [
-      "78f62a2c-d8fa-43dc-aacb-e1e598cefd63",
+      "c4f0a74e-3ee2-4c6f-8c2d-57efc1193865",
       "LED 2"
     ],
     [

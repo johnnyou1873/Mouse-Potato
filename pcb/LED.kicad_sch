@@ -196,46 +196,6 @@
     (uuid feba912a-192c-433b-a141-4b53a7633f18)
   )
 
-  (symbol (lib_id "Device:R_Small_US") (at 144.78 97.79 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 10f4fd38-a9ce-4eff-86d8-d97b0963e79a)
-    (property "Reference" "R1" (at 147.32 96.52 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100 ohm" (at 147.32 99.06 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 144.78 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 144.78 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 779f63aa-1456-4177-a5c0-b99c3452cb2e))
-    (pin "1" (uuid e60a3e81-a8cf-4aaf-9be8-3216f8d7b452))
-    (instances
-      (project "temp"
-        (path "/4ab6c597-c995-4ded-b4e9-3fe49657a9f7"
-          (reference "R1") (unit 1)
-        )
-      )
-      (project "micromouse"
-        (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0"
-          (reference "R?") (unit 1)
-        )
-        (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/cf9a1018-f024-4f3e-aaf6-05bf8a1e7d4b"
-          (reference "R4") (unit 1)
-        )
-        (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/8eced2d0-fd97-48cd-b4cc-6b7d847f68af"
-          (reference "R3") (unit 1)
-        )
-        (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/78f62a2c-d8fa-43dc-aacb-e1e598cefd63"
-          (reference "R5") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 144.78 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 11ddaff9-496f-40f3-87dd-02de3937ed82)
@@ -257,11 +217,51 @@
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0"
           (reference "#PWR?") (unit 1)
         )
-        (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/8eced2d0-fd97-48cd-b4cc-6b7d847f68af"
+        (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/22fc5943-d35f-4cae-bd7a-e9c2d3f0acc0"
           (reference "#PWR05") (unit 1)
         )
-        (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/78f62a2c-d8fa-43dc-aacb-e1e598cefd63"
+        (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/c4f0a74e-3ee2-4c6f-8c2d-57efc1193865"
           (reference "#PWR06") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small_US") (at 144.78 97.79 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 72f44d8a-2a0b-4c99-b263-7fe9fc970430)
+    (property "Reference" "R1" (at 147.32 96.52 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "100 ohm" (at 147.32 99.06 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 144.78 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 144.78 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid 3ce60ef7-696e-446b-8aa6-b10227d63f91))
+    (pin "1" (uuid 94a1c1a3-dc3f-41f6-a2f9-52bbc8fe0158))
+    (instances
+      (project "temp"
+        (path "/4ab6c597-c995-4ded-b4e9-3fe49657a9f7"
+          (reference "R1") (unit 1)
+        )
+      )
+      (project "micromouse"
+        (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0"
+          (reference "R?") (unit 1)
+        )
+        (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/cf9a1018-f024-4f3e-aaf6-05bf8a1e7d4b"
+          (reference "R4") (unit 1)
+        )
+        (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/22fc5943-d35f-4cae-bd7a-e9c2d3f0acc0"
+          (reference "R3") (unit 1)
+        )
+        (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/c4f0a74e-3ee2-4c6f-8c2d-57efc1193865"
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -289,10 +289,10 @@
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0"
           (reference "D?") (unit 1)
         )
-        (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/8eced2d0-fd97-48cd-b4cc-6b7d847f68af"
+        (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/22fc5943-d35f-4cae-bd7a-e9c2d3f0acc0"
           (reference "D2") (unit 1)
         )
-        (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/78f62a2c-d8fa-43dc-aacb-e1e598cefd63"
+        (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/c4f0a74e-3ee2-4c6f-8c2d-57efc1193865"
           (reference "D3") (unit 1)
         )
       )
