@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Mouse Potato")
+    (date "2024-01-16")
+    (rev "1.1.0")
+    (company "UCLA Micromouse 2023-24 Team 2")
+  )
+
   (lib_symbols
     (symbol "PCM_SL_Pin_Headers:PINHD_1x6_Female" (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 12.7 0)
@@ -308,9 +315,6 @@
       (project "micromouse"
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/2b401192-29f1-4489-afec-f456074fa36a/4432e65f-ab91-428e-9e14-5bd062bc3b2a"
           (reference "J4") (unit 1)
-        )
-        (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/d5d9e743-9e27-447f-b0f9-b0c42ec0b9e2"
-          (reference "J12") (unit 1)
         )
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/2b401192-29f1-4489-afec-f456074fa36a/c49b218c-498c-4be6-8fe0-5dd9138da158"
           (reference "J1") (unit 1)

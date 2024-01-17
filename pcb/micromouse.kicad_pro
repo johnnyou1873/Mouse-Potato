@@ -35,8 +35,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.55,
-          "width": 0.3
+          "height": 0.254,
+          "width": 0.254
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -55,10 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "clearance|134605181|131804622|6339881d-d340-4ee5-913c-50b8d76b2a50|b224326f-7dea-42e6-a379-f2428687922e",
-        "clearance|136283706|104536689|817d1708-f302-4431-be9b-4584bde2a66b|b224326f-7dea-42e6-a379-f2428687922e"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -397,7 +394,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -491,10 +488,6 @@
     [
       "77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0",
       ""
-    ],
-    [
-      "d5d9e743-9e27-447f-b0f9-b0c42ec0b9e2",
-      "TOF Rear"
     ],
     [
       "4432e65f-ab91-428e-9e14-5bd062bc3b2a",
