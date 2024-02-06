@@ -4328,6 +4328,37 @@
     )
   )
 
+  (symbol (lib_id "Device:C_Small") (at 123.19 66.04 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 04642171-6e9c-4fc1-877b-ea3ec5a693b8)
+    (property "Reference" "C23" (at 125.73 64.7636 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "0.1 uF" (at 125.73 67.3036 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 123.19 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 123.19 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9354fb2e-e125-4233-84dd-f9405fd7435a))
+    (pin "2" (uuid a41fbe29-f558-43d2-8c2e-46f727ea47c5))
+    (instances
+      (project "micromouse"
+        (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0"
+          (reference "C23") (unit 1)
+        )
+      )
+      (project "button"
+        (path "/91ddd5fd-ed4a-4a3f-ba4e-143f6c4541e0"
+          (reference "C15") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 158.75 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 051f91c3-bb5f-4855-8877-f874d539b9cd)
@@ -5443,6 +5474,32 @@
     )
   )
 
+  (symbol (lib_id "Device:C_Small") (at 156.21 34.29 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 75ebc8a7-7a80-4c27-b842-d2952bbb7b67)
+    (property "Reference" "C10" (at 158.75 33.0136 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "0.1 uF" (at 158.75 35.5536 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 156.21 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 156.21 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d23e1dff-1ddd-4896-8e93-773a5e256fb8))
+    (pin "2" (uuid d7dc4f3b-c608-4f5f-a8e4-c4e25f3ae0d1))
+    (instances
+      (project "micromouse"
+        (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0"
+          (reference "C10") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND1") (at 97.79 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 77425cc5-ddaf-484c-8e47-45e30efc3877)
@@ -5608,37 +5665,6 @@
       (project "micromouse"
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0"
           (reference "J8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 123.19 66.04 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 81eaab35-0e53-48b8-93dd-a5fa37baf8ce)
-    (property "Reference" "C23" (at 125.73 64.7763 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "0.1 uF" (at 125.73 67.3163 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 123.19 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 123.19 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0f994c2f-4989-4e5f-a9ec-3a51e116b5a7))
-    (pin "2" (uuid 260b3386-1241-4e1d-9ddf-fac4668b5612))
-    (instances
-      (project "micromouse"
-        (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0"
-          (reference "C23") (unit 1)
-        )
-      )
-      (project "button"
-        (path "/91ddd5fd-ed4a-4a3f-ba4e-143f6c4541e0"
-          (reference "C15") (unit 1)
         )
       )
     )
@@ -6547,32 +6573,6 @@
       (project "micromouse"
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0"
           (reference "C4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 156.21 34.29 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f988bc7d-92fd-469e-a75f-cc4e54d8dcbd)
-    (property "Reference" "C10" (at 158.75 33.0263 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "0.1 uF" (at 158.75 35.5663 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 156.21 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 156.21 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 49054764-5b08-4c8a-8387-cac2795c14c1))
-    (pin "2" (uuid 822eb5dc-2ef1-48e2-bae0-90e47feb3e72))
-    (instances
-      (project "micromouse"
-        (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0"
-          (reference "C10") (unit 1)
         )
       )
     )

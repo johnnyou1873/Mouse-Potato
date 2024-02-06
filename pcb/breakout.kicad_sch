@@ -1933,43 +1933,6 @@
     )
   )
 
-  (symbol (lib_id "Device:R_Small_US") (at 162.56 138.43 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid bf7f0f4b-b9b3-473d-ad24-023610043b44)
-    (property "Reference" "R?" (at 165.1 137.16 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "10k" (at 165.1 139.7 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 162.56 138.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 162.56 138.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 81a7b8cf-ae3f-4d5f-b7cd-64a1a72e4f3c))
-    (pin "1" (uuid 6336b775-a516-4f74-a40c-c506c3f38e51))
-    (instances
-      (project "temp"
-        (path "/4ab6c597-c995-4ded-b4e9-3fe49657a9f7"
-          (reference "R?") (unit 1)
-        )
-      )
-      (project "micromouse"
-        (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0"
-          (reference "R2") (unit 1)
-        )
-        (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/cf9a1018-f024-4f3e-aaf6-05bf8a1e7d4b"
-          (reference "R?") (unit 1)
-        )
-        (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/2b401192-29f1-4489-afec-f456074fa36a"
-          (reference "R6") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "PCM_SL_Pin_Headers:PINHD_1x2_Male") (at 115.57 71.12 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d3cab0c2-3409-4077-9d90-108cfbaedaa1)
@@ -2023,6 +1986,43 @@
       (project "micromouse"
         (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/2b401192-29f1-4489-afec-f456074fa36a"
           (reference "J14") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small_US") (at 162.56 138.43 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ec36a840-931f-4063-a86d-a7671fb8bf45)
+    (property "Reference" "R?" (at 165.1 137.16 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "10k" (at 165.1 139.7 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 162.56 138.43 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 162.56 138.43 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid f7f3186a-3be2-4393-90de-15c94cf3628f))
+    (pin "1" (uuid 1ddebd2b-9a84-48bd-925b-edf89a73e694))
+    (instances
+      (project "temp"
+        (path "/4ab6c597-c995-4ded-b4e9-3fe49657a9f7"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "micromouse"
+        (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0"
+          (reference "R2") (unit 1)
+        )
+        (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/cf9a1018-f024-4f3e-aaf6-05bf8a1e7d4b"
+          (reference "R?") (unit 1)
+        )
+        (path "/77cbf270-6b61-4f1a-b1cd-1a823bc4a9d0/2b401192-29f1-4489-afec-f456074fa36a"
+          (reference "R6") (unit 1)
         )
       )
     )
